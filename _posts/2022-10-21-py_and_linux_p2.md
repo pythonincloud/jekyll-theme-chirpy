@@ -9,7 +9,7 @@ mermaid: true
 ## Step 5: Learn how to create and merge Strings
 
 ##### Creating Strings
-
+   
 - The text data in Python is called **String**.
 - The official name of this data type is denoted as **"str"** 
   ```python
