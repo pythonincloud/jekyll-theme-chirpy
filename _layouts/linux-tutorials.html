@@ -1,0 +1,12 @@
+---
+layout: page
+---
+
+{% for post in site.posts %}
+  {% if post.path contains 'Linux Tutorials' %}
+    <ul>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </ul>
+  {% endif %}
+{% endfor %}
+
