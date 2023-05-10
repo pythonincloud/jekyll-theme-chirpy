@@ -5,7 +5,7 @@ categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
 mermaid: true
 ---
-![9 Steps to learn Python foundations](\assets\img\Learn to Code in Just 30 Minutes!\overview-1.png)
+![9 Steps to learn Python foundations](/assets/img/Learn_to_Code_in_Just_30_Minutes/overview-1.png)
 _9 Steps to learn Python foundations_
 
 ### Overview
