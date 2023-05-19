@@ -21,6 +21,9 @@ Install Python:
     {: .prompt-info }
 
 Install VS Code:
+
+![Install VS Code](/assets/img/Learn_to_Code_in_Just_30_Minutes/install_vs_code.svg)
+_Install VS Code_
 1. Go to their [website](https://code.visualstudio.com/download) or google "VS Code download"
 2. Click the download button. 
 3. Execute the installation file once it is downloaded.
@@ -30,6 +33,10 @@ Install VS Code:
 
 
 ### Step 1.2: Setup VS Code
+
+![Setup VS Code](/assets/img/Learn_to_Code_in_Just_30_Minutes/setup_vs_code.svg)
+_Setup VS Code_
+
 
 Install VS Code extensions:
 1. Open VS Code
@@ -49,3 +56,4 @@ Update settings.
        - Provides visual differentiation between different parenthesis. 
  
  {% include button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/py_calc-step2/" %}
+
