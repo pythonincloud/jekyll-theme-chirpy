@@ -3,7 +3,8 @@ title: <i class="fa-solid fa-calculator"></i> Learn Python by doing. Create simp
 date: 2023-05-10 12:59:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
-mermaid: true
+image:
+  path: /assets/img/Learn_to_Code_in_Just_30_Minutes/overview-1.svg
 ---
 
 ### Overview

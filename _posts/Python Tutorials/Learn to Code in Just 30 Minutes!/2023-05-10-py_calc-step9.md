@@ -1,6 +1,6 @@
 --- 
-title: <i class="fa-solid fa-calculator"></i> Create simple calculator - Step 8
-date: 2023-05-10 12:51:00 +100
+title: <i class="fa-solid fa-calculator"></i> Create simple calculator - Step 9
+date: 2023-05-10 12:50:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
 mermaid: true
