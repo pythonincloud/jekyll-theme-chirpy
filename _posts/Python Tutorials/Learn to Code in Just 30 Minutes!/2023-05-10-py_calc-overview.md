@@ -26,8 +26,8 @@ You are going to learn it by doing. Together, we're going to create a simple cal
 
 You might be wondering what are all those things in the steps above and why do we need them? The answer is that they are the most fundamental blocks of knowledge in any programming language. 
 
-![the most fundamental blocks of knowledge](overview-2.svg){: width="300"}
-_The most fundamental blocks of knowledge_
+![the most fundamental blocks of knowledge in Python](building_blocks_in_python.svg){: width="300"}
+_The most fundamental blocks of knowledge in Python_
 
 It might be hard to see how they make sense at this moment and even while you learn them individually. However a big picture will arise once you put enough efforts into the practice. 
 
