@@ -1,9 +1,12 @@
 --- 
-title: <i class="fa-solid fa-calculator"></i> Create simple calculator - Step 4
+title: Create simple calculator - Step 4
 date: 2023-05-10 12:55:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
-mermaid: true
+img_path: /assets/img/Learn_to_Code_in_Just_30_Minutes/
+image:
+  path: learn_variables_in_python.svg
+  alt: "Learn Variables in Python"
 ---
 
 ## Step 4: Learn Variables

@@ -1,9 +1,12 @@
 --- 
-title: <i class="fa-solid fa-calculator"></i> Create simple calculator - Step 5
+title: Create simple calculator - Step 5
 date: 2023-05-10 12:54:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
-mermaid: true
+img_path: /assets/img/Learn_to_Code_in_Just_30_Minutes/
+image:
+  path: Learn_strings_Concatenation_in_python.svg
+  alt: "Learn Strings Concatenation in Python"
 ---
 
 

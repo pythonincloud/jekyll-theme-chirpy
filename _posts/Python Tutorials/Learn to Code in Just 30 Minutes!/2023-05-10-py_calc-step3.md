@@ -1,9 +1,12 @@
 --- 
-title: <i class="fa-solid fa-calculator"></i> Create simple calculator - Step 3
+title: Create simple calculator - Step 3
 date: 2023-05-10 12:56:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
-mermaid: true
+img_path: /assets/img/Learn_to_Code_in_Just_30_Minutes/
+image:
+  path: enter_data_in_terminal.svg
+  alt: "Enter data in terminal"
 ---
 
 ## Step 3: Learn how to enter data in Terminal

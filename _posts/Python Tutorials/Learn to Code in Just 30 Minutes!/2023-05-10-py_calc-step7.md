@@ -1,9 +1,12 @@
 --- 
-title: <i class="fa-solid fa-calculator"></i> Create simple calculator - Step 7
+title: Create simple calculator - Step 7
 date: 2023-05-10 12:52:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
-mermaid: true
+img_path: /assets/img/Learn_to_Code_in_Just_30_Minutes/
+image:
+  path: learn_conditionals_in_python.svg
+  alt: "Learn Conditionals Python"
 ---
 
 ## Step 7: Learn Conditional Statements

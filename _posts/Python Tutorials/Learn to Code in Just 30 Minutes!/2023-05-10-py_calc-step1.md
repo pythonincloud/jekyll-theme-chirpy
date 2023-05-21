@@ -1,9 +1,12 @@
 --- 
-title: <i class="fa-solid fa-calculator"></i> Create simple calculator - Step 1
+title: Create simple calculator - Step 1
 date: 2023-05-10 12:58:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
-mermaid: true
+img_path: /assets/img/Learn_to_Code_in_Just_30_Minutes/
+image:
+  path: setup_vs_code.svg
+  alt: "9 Steps to learn Python foundations"
 ---
 
 ### Step 1.1: Install tools
@@ -12,7 +15,10 @@ To get started we need to install following software:
 - Python itself - allows us to run python programs.
 - VS Code - allows us to easily write code.
 
-Install Python:
+#### Install Python:
+![Install Python](install_python.svg)
+_Install Python_
+
 1. Go to Python [website](https://www.python.org/downloads/)  or google "python download" 
 2. Click the download button.
 3. Execute the installation file once it is downloaded.
@@ -20,9 +26,9 @@ Install Python:
 > When installing make sure to check the add to PATH checkbox. 
     {: .prompt-info }
 
-Install VS Code:
+#### Install VS Code:
 
-![Install VS Code](/assets/img/Learn_to_Code_in_Just_30_Minutes/install_vs_code.svg)
+![Install VS Code](install_vs_code.svg)
 _Install VS Code_
 1. Go to their [website](https://code.visualstudio.com/download) or google "VS Code download"
 2. Click the download button. 
@@ -34,7 +40,7 @@ _Install VS Code_
 
 ### Step 1.2: Setup VS Code
 
-![Setup VS Code](/assets/img/Learn_to_Code_in_Just_30_Minutes/setup_vs_code.svg)
+![Setup VS Code](setup_vs_code.svg)
 _Setup VS Code_
 
 
