@@ -1,28 +1,26 @@
 --- 
-title: Create simple calculator - Step 3
+title: Step 3 - Learn how to enter data in Terminal
 date: 2023-05-10 12:56:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
 img_path: /assets/img/Learn_to_Code_in_Just_30_Minutes/
 image:
-  path: enter_data_in_terminal.svg
-  alt: "Enter data in terminal"
+  path: learn_how_to_enter_data_in_terminal.svg
+  alt: "Learn how to enter data in terminal"
 ---
 
-## Step 3: Learn how to enter data in Terminal
+## Theory
 
-### Theory
-
-Since we're going to create a calculator, we somehow need to interact with user - ask them to enter numbers, and then provide a result.  
+Since we're going to create a calculator, we somehow need to interact with a user - ask them to enter numbers, and then provide a result.  
 
 Let's now learn how to enter data in the terminal using Python. For that we use the **input()** function. 
 
-About `input()`:
+**About** `input()`:
 - We can put some text inside the `input()` function. 
 - It will print this text first, and then will wait for user text data.
 - You have to press the Enter key to actually execute it.
 
-Example:
+## Example
 
 1. Run the below code:
 ```python
@@ -36,7 +34,12 @@ Here is what happens:
 - This is expected since we don't yet use the name we entered in the program.  
 - To actually use the entered name we need to learn about **variables** in the next step.
 
-### Practice
+python_input_function_example_visualized
+
+![Python Input function example visualized](examples/python_input_function_example_visualized.svg)
+_Python Input function example visualized_
+
+## Practice
 
 Let's now practice how to enter data. 
 
@@ -48,11 +51,11 @@ Let's now practice how to enter data.
   enter second number: 7
   ```
 
-### Solution
+## Solution
 
 ```python
 input('enter first number: ')
 input('enter second number: ')
 ```
 
- {% include button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/py_calc-step4/" %}
+ {% include next-button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/python-tutorial-step-4/" %}

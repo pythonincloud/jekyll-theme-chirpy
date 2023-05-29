@@ -1,5 +1,5 @@
 --- 
-title: Create simple calculator - Step 8
+title: Step 8 - Learn Functions
 date: 2023-05-10 12:51:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
@@ -9,9 +9,7 @@ image:
   alt: "Learn Functions in Python"
 ---
 
-## Step 8: Learn Functions.
-
-### Theory.
+## Theory.
 
 We have already used two functions: `print()` and `input()`. It's now time to create our own function!
 
@@ -22,6 +20,12 @@ Why do we need functions? There are two main reasons why you want to create them
 2. You have repeated blocks of code  
 
 In both cases wrapping some block of code into a function can help to increase **readability** of your code. 
+
+Imagine your friend is a chief and he knows a recipe for baking cookies. He knows that to make the cookies he has to take certain amount of ingredients and then perform some actions with them, like preparing ingredients, making a dough from them, then baking the dough and this will result in delicious cookies. In Python, a function is like asking your friend to cook cookies and at the same time giving the necessary ingredients to your friend, who will then apply his skills to make the cookies for you.
+
+It's the same with functions: you supply input data to a function, the function will do some actions with this data and will produce a result for you.
+
+## Example
 
 Let's now create a simple function which takes two strings as input, merges them and then prints output:
 
@@ -44,7 +48,11 @@ In the above code:
 
 If you will try to run just this block of code nothing is going to happen. That is because we need a separate line of code to execute our function like this:
 ```python
-print_to_strings('hello ', 'user')
+def print_two_strings(string1, string2):
+    merged_string = string1 + string2
+    print(merged_string)
+
+print_two_strings('hello ', 'user')
 ```
 
 > This separate line of code we just wrote above has its own name - *a function call*. 
@@ -53,9 +61,10 @@ print_to_strings('hello ', 'user')
 > Note that to execute or *call* a function you need to use parenthesis `()` after a function name. 
 {: .prompt-info }
 
-### Practice.
+## Practice.
 
 Here are the guidelines for this practice section:
+- Re-use the code we wrote in the previous Step 
 - You need to create 4 different functions
 - Each of these function performs its own mathematical operation:
   - The first adds two numbers together and prints the result
@@ -66,6 +75,7 @@ Here are the guidelines for this practice section:
 
 
 ### Solution
+
 ```python
 def add(number_1, number_2):
   result = number_1 + number_2
@@ -84,8 +94,8 @@ def divide(number_1, number_2):
   print(result)
 
 number_1 = int(input('enter first number: '))
-number_2 = int(input('enter second number: '))
 operator = input('enter math operator: +, -, *, / : ')
+number_2 = int(input('enter second number: '))
 
 if operator == '+':
     add(number_1, number_2)
@@ -99,4 +109,4 @@ else:
     print('Unknown operator')
 ```
 
- {% include button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/py_calc-step9/" %}
+ {% include next-button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/python-tutorial-step-9/" %}

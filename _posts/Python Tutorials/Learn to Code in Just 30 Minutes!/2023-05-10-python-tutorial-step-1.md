@@ -1,22 +1,22 @@
 --- 
-title: Create simple calculator - Step 1
+title: Step 1 - Install and configure tools
 date: 2023-05-10 12:58:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
 img_path: /assets/img/Learn_to_Code_in_Just_30_Minutes/
 image:
   path: setup_vs_code.svg
-  alt: "9 Steps to learn Python foundations"
+  alt: "Setup VS Code"
 ---
 
-### Step 1.1: Install tools
+## Step 1.1: Install tools
 
 To get started we need to install following software:
 - Python itself - allows us to run python programs.
 - VS Code - allows us to easily write code.
 
-#### Install Python:
-![Install Python](install_python.svg)
+### Install Python:
+![Install Python](install_python.svg){: width="300"}
 _Install Python_
 
 1. Go to Python [website](https://www.python.org/downloads/)  or google "python download" 
@@ -26,7 +26,7 @@ _Install Python_
 > When installing make sure to check the add to PATH checkbox. 
     {: .prompt-info }
 
-#### Install VS Code:
+### Install VS Code:
 
 ![Install VS Code](install_vs_code.svg)
 _Install VS Code_
@@ -61,5 +61,5 @@ Update settings.
     2. **Bracket Pair Colorization.** Set it to Enabled by clicking to the checkbox.
        - Provides visual differentiation between different parenthesis. 
  
- {% include button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/py_calc-step2/" %}
+ {% include next-button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/python-tutorial-step-2" %}
 

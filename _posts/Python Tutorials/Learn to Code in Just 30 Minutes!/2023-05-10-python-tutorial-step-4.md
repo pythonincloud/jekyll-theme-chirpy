@@ -1,5 +1,5 @@
 --- 
-title: Create simple calculator - Step 4
+title: Step 4 - Learn Variables in Python
 date: 2023-05-10 12:55:00 +100
 categories: [python-tutorial]
 tags: [python, learning, tutorial, programming-language]
@@ -9,12 +9,10 @@ image:
   alt: "Learn Variables in Python"
 ---
 
-## Step 4: Learn Variables
-
-### Theory.
+## Theory
 
 What is the variable? 
-- Objects with data are stored inside computer memory. 
+- Objects (text, numbers, complex data structures) with data are stored inside computer memory. 
 - In the real world we use a post address when we need to visit some place or a building.
 - Computers also use addresses to get access to a particular object in memory and it looks like this `0x00000284DE5A3E20`
 - A variable is simply **a name** you give to a memory address where an object is stored.
@@ -23,7 +21,9 @@ What is the variable?
 > We use the equals sign "=" between variable name and an object we want to give this name to.
 {: .prompt-info }
 
-Let's use a variable in our first 'hello world' program, for now we simply give it the name "my_variable".
+## Example #1
+
+Let's now use a variable in our first 'hello world' program, for now we simply give it the name "my_variable".
 ```python
 my_variable = "hello world"
 print(my_variable)
@@ -33,6 +33,12 @@ Here is what happens:
 - We create a new variable and assign a string data to it.
 - The print statement looks what memory address *variable*  represents.
 - The print statement then fetches the text data in that memory location and outputs it into the terminal.
+
+![Python Print function with variable example visualized](examples/python_print_function_with_variable_example_visualized.svg)
+_Python Print function with variable example visualized_
+
+
+## Example #2
 
 Let's also modify 'enter your name' program and use a variable to store the data a user enters:
 
@@ -47,14 +53,18 @@ Here is what happens:
 - The user's name is now stored inside this variable.
 - The `print` statement then fetches the text data stored in an address represented by `your_name` and outputs it into the terminal.
 
+![Python Print and Input functions with variable example visualized](examples/python_print_and_intput_functions_with_variable_example_visualized.svg)
+_Python Print and Input functions function with variable example visualized_
+
 > When a user enters their name it's going to be stored as **string**.
 {: .prompt-info }
 
 
-### Practice. 
+## Practice. 
 
 Let's now start writing our calculator. 
 
+- Re-use the code we wrote in the previous Step 
 - We want a user to enter two numbers and then print them in the terminal.
 - Create first variable which will represent first number and read this data from the Terminal using input() function.
 - Similarly, create second variable which will represent second number and read this data from the Terminal.
@@ -66,11 +76,11 @@ Let's now start writing our calculator.
   70 7
   ```
 
-### Solution
+## Solution
 
 ```python
 number_1 = input('enter first number: ')
 number_2 = input('enter second number: ')
 print(number_1, number_2)
 ```
- {% include button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/py_calc-step5/" %}
+ {% include next-button.html button_name="Go to the Next Step" button_class="outline-primary" url="/posts/python-tutorial-step-5/" %}
